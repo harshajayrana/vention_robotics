@@ -21,3 +21,9 @@ This project aims to revolutionize Vention's robot work cell capabilities by lev
 -  Full Driver Implementation: This includes ROS2 design and implementation, CAD integration (focusing on a 2-axis overhead gantry), robot-specific integration (using URSim for UR20/30), and designing a representative sample work cell.
 
 The project seeks to address current limitations in Vention's robot control system, such as limited intelligence in obstacle avoidance and the need for manual path teaching. By leveraging GPU power and advanced algorithms, the goal is to create a more intelligent, efficient, and adaptable robotic system that significantly reduces manual intervention in complex work cell environments.
+
+The Gantry:
+- This package has the files for the 7th axis i.e. the UR robot on a linear rail gantry setup.
+
+Motion plan:
+- This package utilizes the Curobo package to generate a trajectory for the gantry robot.
